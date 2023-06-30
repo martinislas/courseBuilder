@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>PLAI | Course Builder</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+		<script src="https://kit.fontawesome.com/f4e91249f9.js" crossorigin="anonymous"></script>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		
+
+		<!-- Header -->
+		<header>
+			<a href="index.html" class="title">PLAI</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="create01.html" class="active">Create</a></li>
+					<li><a href="log-in.html">Log in</a></li>
+				</ul>
+			</nav>
+		</header>
+
+	<!-- Wrapper -->
+		<div class="wrapper">
+					
+			<h1 class="major">Create a course</h1>
+				
+			<!-- Text -->
+					
+			<section>
+						
+				<h2>Step 1: Basic Information</h2>
+				<p>
+					Use this page to define the design parameters for your course.
+					You can add additional direction or context for your course by providing instructions in the 'Special Instructions' section.
+					You can also base a course on your existing materials by uploading them as pdf, docs or txt files.
+					For more information on how to use these features in the best way <a href="#">click here</a>.
+				</p>
+						
+			</section>
+			<hr />
+						
+			<!-- Form -->
+			<form method="post" action="#">
+					
+				<div>
+					<div class="form">
+						<label for="course-name">Course Name</label>
+						<input class="long" type="text" name="course-name" id="course-name" value="" placeholder="Leave blank for our system to determine" />
+					</div>
+					<div class="form">
+						<label  for="course-subject">Subject Area of Course</label>
+						<input class="long" type="text" name="course-subject" id="course-subject" value="" placeholder="Leave blank for our system to determine" />
+					</div>
+					<div class="form">
+						<label for="course-level">Level</label>
+						<select name="course-level" id="course-level" value="" placeholder="All Levels">
+							<option value="">- Levels -</option>
+							<option value="1">Level 1</option>
+							<option value="1">Level 2</option>
+							<option value="1">Level 3</option>
+							<option value="1">Level 4</option>
+						</select>	
+					</div>
+				</div>
+				<div class="form">
+					<label for="course-subject">Sector / Industry / Role</label>
+					<input class="long" type="text" name="course-subject" id="course-subject" value="" placeholder="Leave blank for our system to determine" />
+				</div>
+				<div class="form">
+					<label for="course-subject">Course Length</label>
+					<input class="long" type="text" name="course-subject" id="course-subject" value="" placeholder="E.g.: 10hours, 4 hours, 2 weeks" />
+				</div>
+				<div class="form">
+					<label for="course-topics">Number of topics</label>
+					<select name="course-level" id="course-level" value="" placeholder="All Levels">
+						<option value="">-Number of Topics-</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>										
+				</div>
+				<div class="form">
+					<label for="course-topics">Lessons per topic</label>
+					<select name="course-level" id="course-level" value="" placeholder="All Levels">
+						<option value="">-Lessons per Topics-</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>										
+				</div>
+				<div class="form">
+					<label for="quizzes">Include Quizzes</label>
+					<input type="checkbox" id="quizzes" name="quizzes">
+					<label for="quizzes"></label>
+				</div>
+				<div class="form">
+					<label for="assigments">Include Assigments</label>
+					<input type="checkbox" id="assigments" name="assigments">
+					
+				</div>
+				<div class="form">
+					<label for="textarea">Special Instructions</label>
+					<textarea name="textarea" id="textarea" placeholder="Add any special instructions about what this course should include. E.g: Include focus on elements of peer support and coaching that can be included." rows="6"></textarea>
+				</div>
+				<div class="form">
+					<label>Aditional Documents</label>
+					<div>
+						<ul class="twoButtons">
+							<li><input type="submit" value="Upload Documents" class="primary" /></li>
+							<li><input type="submit" value="Submit"  /></li>
+							
+						</ul>
+					</div>
+				</div>
+				
+				<div class="form">
+					<label for="textarea">Describe the Documents</label>
+					<textarea name="textarea" id="textarea" placeholder="Give us a simple description of the documents you uploaded above so we can get the labelling and context correct." rows="6"></textarea>
+
+				</div>
+				<br>	
+				<hr />
+				<br>
+					
+				<div>
+					<ul class="twoButtons">
+						<li><input type="submit" value="Create Course Structure"  /></li>
+						<li><input type="submit" class="primary" value="Save and Exit" /></li>
+					</ul>
+				</div>
+						
+			</form>
+			<br>
+			<div class="stepper-wrapper">
+				<div class="stepper-item active">
+				  <div class="step-counter"></div>
+				  <div class="step-name"><a href="index.html">Basic Information<a></a></div>
+				</div>
+				<div class="stepper-item ">
+				  <div class="step-counter"></div>
+				  <div class="step-name"><a href="chiron02.html">Structure</a></div>
+				</div>
+				<div class="stepper-item ">
+				  <div class="step-counter"></div>
+				  <div class="step-name"><a href="chiron03.html">Audience</a></div>
+				</div>
+				<div class="stepper-item ">
+				  <div class="step-counter"></div>
+				  <div class="step-name"><a href="chiron04.html">Content</a></div>
+				</div>
+			</div>
+				
+		</div>
+
+		<footer>
+			<section>
+				<div>
+					<h1>PLAI</h1>
+				</div>
+				<div>
+					<h3>Navigate</h3>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Pricing</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3>Contact</h3>
+					<ul>
+						<li>info@plai.co</li>		
+						
+						<li>	
+							<a class="icon fa-brands fa-telegram" href="#">
+							</a>
+						</li>
+						<li>
+							<a class="icon fa-brands fa-whatsapp" href="#">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Social</h3>
+					<ul>
+						
+						<li>
+							<a class="icon fa-brands fa-facebook" href="#">
+							</a>
+						</li>
+						<li>
+							<a class="icon fa-brands fa-twitter" href="#">
+							</a>
+						</li>
+						<li>
+							<a class="icon fa-brands fa-linkedin-in" href="#">
+							</a>
+						</li>
+						<li>
+							<a class="icon fa-brands fa-medium" href="#">
+							</a>
+						</li>
+						<li>
+							<a class="icon fa-brands fa-youtube" href="#">
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</section>
+			
+
+		</footer>
+		<p class="copyright">&copy; 2023 PLAI - All rights reserved.</p>
+			
+
+
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
